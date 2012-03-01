@@ -1,0 +1,33 @@
+JmxServerMonitoring
+-------------------
+
+What is JmxServerMonitoring?
+----------------------------
+
+JmxServerMonitoring is a simple command-line tool for monitoring JVMs by means 
+of JMX.
+
+This tools allows for collection of different JVM statistics and information, 
+e.g. CPU load, GC load, heap memory statistics, etc.
+
+In addition to attributes related to JVM internals, it can also collect
+any information exposed via user-defined JMX Beans.
+
+The tool is able to collect information from one or multiple JVMs.
+
+It can output results to console, to CSV files (Comma-Separated Values)
+and into files using for Nagois statistics collection.
+
+How to use?
+-------------------------------
+
+JmxServerMonitoring can be configured via command-line parameters
+and/or configuration files.
+
+History of this tool
+------------------------------
+
+This tools is based on the example code provide by Torsten Horn in the 
+following JMX and GC tutorial (in German):
+http://www.torsten-horn.de/techdocs/jmx-gc.htm
+ 
