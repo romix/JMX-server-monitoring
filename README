@@ -24,6 +24,8 @@ How to use?
 JmxServerMonitoring can be configured via command-line parameters
 and/or configuration files.
 
+Please read Wiki-documentation for more information: http://github.com/romix/JMX-server-monitoring/wiki/How-To
+
 History of this tool
 ------------------------------
 
